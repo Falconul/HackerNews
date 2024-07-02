@@ -1,0 +1,21 @@
+.arrow {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  margin: 0px 2px;
+  padding: 5px;
+  background: url("../../assets/triangle.svg"),
+    linear-gradient(transparent, transparent) no-repeat center / 10px;
+  background-size: 10px;
+  border-color: initial;
+  background-color: initial;
+  flex-direction: row;
+  align-self: center;
+}
+
+.front-page-ol {
+  color: black;
+  background: #f5f5dc;
+  list-style-position: inside;
+  padding-inline-start: 0px;
+}

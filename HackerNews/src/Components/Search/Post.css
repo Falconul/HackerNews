@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: beige;
+  display: flex;
+}
+
+.post {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: start;
+  color: gray;
+  /* margin-left: 20px; */
+  padding: 5px;
+}
+
+.post-url {
+  font-size: 12px;
+}
+
+.post-sub {
+  font-size: 11px;
+  color: gray;
+}
+
+.post-title a {
+  color: black;
+}
+
+.post em {
+  background-color: yellow;
+  font-style: normal;
+}
+
+/* STYLING THE COMMENTS in the Search Result*/
+
+.comment {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.comments-main {
+  background-color: beige;
+  padding: 10px;
+}
+.comment-author {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comments-sub {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+ol {
+  padding-inline-start: 0px;
+  color: black;
+}
+
+.hide-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hide-link:hover {
+  text-decoration: underline;
+}
+
+.comments-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: gray;
+}
